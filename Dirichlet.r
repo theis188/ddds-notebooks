@@ -28,3 +28,4 @@ grid$z <- ( grid$x-grid$y/sqt3 )^(a1-1) * ( grid$y * 2 / sqt3 )^(a2-1) * ( 1-gri
 levelplot(z~x*y, data=grid, cuts = 50, xlab="",
           ylab="", main="Dirichlet Distribution",
           region = TRUE)
+
